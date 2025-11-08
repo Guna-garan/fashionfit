@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 👗 FASHIONFIT
 
-## Project info
+> *Your Personal Virtual Fashion Studio 💫*
 
-**URL**: https://lovable.dev/projects/1aef7142-1ad2-48e5-9df0-64f173adb16e
+FASHIONFIT is a modern web-based fashion e-commerce platform built with ❤️ using **React**, **Node.js**, **Express**, and **MongoDB**.  
+It’s designed exclusively for style lovers who want to **try dresses virtually** before buying — just like Lenskart’s preview, but for fashion 👚👕.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ **Features**
+✅ User-friendly and responsive interface  
+✅ Separate sections for men’s and women’s collections  
+✅ Secure user authentication (Login / Signup)  
+✅ Virtual Try-On feature using AI (face-api.js)  
+✅ Cloud-hosted image uploads (secure & private)  
+✅ Backend powered by Express & MongoDB  
+✅ Modern UI with Tailwind CSS  
+✅ Fast rendering using React Router  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1aef7142-1ad2-48e5-9df0-64f173adb16e) and start prompting.
+## 🧠 **Tech Stack**
 
-Changes made via Lovable will be committed automatically to this repo.
+| Layer | Technologies Used |
+|-------|--------------------|
+| **Frontend** | React, HTML, CSS, JavaScript, Tailwind, Bootstrap |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **AI / ML** | face-api.js (for virtual try-on) |
+| **Security** | bcrypt, JWT, dotenv, helmet |
+| **Deployment** | Firebase / Vercel / Render |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ **Installation Steps**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1️⃣ Clone the repository
 
-Follow these steps:
+git clone https://github.com/Guna-garan/fashionfit.git
+cd fashionfit
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Backend setup
+cd server
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Frontend setup
+cd ../client
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Terminal 1 - Backend
+cd server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+# Terminal 2 - Frontend
+cd client
+npm start
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+❤️ Future Enhancements
 
-**Use GitHub Codespaces**
+🧍‍♂️ Real-time 3D Virtual Dressing Room
+☁️ Cloud deployment with Firebase Authentication
+💬 Smart chatbot for style recommendation
+📊 Admin dashboard for product analytics
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1aef7142-1ad2-48e5-9df0-64f173adb16e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
