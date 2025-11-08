@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth"; // for authentication
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDKXOkMySadCSlNnpqsAM433__Sv95-yLE",
+  apiKey: "AIzaXXXXXXXXXXXXXXXXXXXX",
   authDomain: "fashion-fit-ec41c.firebaseapp.com",
   projectId: "fashion-fit-ec41c",
   storageBucket: "fashion-fit-ec41c.firebasestorage.app",
   messagingSenderId: "1067723069083",
-  appId: "1:1067723069083:web:141c63857e224bcef3d83e",
+  appId: "1:106XXXXX83:web:14XXXXXXXXX",
   measurementId: "G-2C5D3XFVFH",
   databaseURL : "https://console.firebase.google.com/u/0/project/fashion-fit-ec41c/database/fashion-fit-ec41c-default-rtdb/data/~2F"
 };
